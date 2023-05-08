@@ -1,0 +1,22 @@
+.satu {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+/* dengan begini maka div dengan class satu akan bertinggi 200 dan berlebar 200 dengan warna aqua */
+
+.dua {
+  width: 100%;
+  background-color: rgb(255, 94, 0);
+}
+/* dengan ini div dua yg ada didalam div 1, dengan class dua akan berukuran 100% namun mengikuti parentnya, yaitu div dengan class satu, jadi jika
+    div satu dibikin menjadi 200px makan width div dua juga hanya berukuran 200px, namun jika child atau div dua diatur dengan 120% maka dia akan keluar
+    dari parentnya atau orang tuanya */
+
+.tiga {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+/* pada div dengan class tiga, isi didalamnya akan menyusuaikan ukuran dari width (lebar) yg telah ditentukan, lalu untuk panjang kebawahnya masih relativ atau mengikuti isi dari konten tsb */
+/* namun saat heightnya atau panjang kebawahnya diatur menjadi absolute, konten yg ada didalamnya akan keluar atau tidak terwaranai */

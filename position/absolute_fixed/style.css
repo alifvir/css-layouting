@@ -1,0 +1,45 @@
+body {
+  height: 2000px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.satu {
+  background-color: lightcoral;
+}
+.dua {
+  background-color: lightgreen;
+  position: absolute;
+  /* jika menggunakan position maka kotak kedua akan berbeda dimensi lalu dia dapat menggunakan 
+   left,right,bottom,top*/
+  /* jika dia menggunakan absoluted ketika kita menggerakan elemen dengan posisi absolute(menggunakan properti top,left,bottom, dan right) ruang yang ditempati oleh elemen tersebut dianggap tidak ada */
+  top: 0px;
+  /* saat menggunakan top maka elemen ketiga menganggap elemen kedua tidak ada maka dia akan naik dan mengisi posisi elemen kedua*/
+
+  right: 0px;
+  /* left 5px artinya saya mau ada jarak 5px dari kiri */
+
+  /* jika div berada didalam body lalu diberikan top : 0; dan left : 0; dia akan berada dikiri pojok atas sesuai dengan parennya
+    atau bisa disebut berada dipojok kiri atas*/
+}
+
+.tiga {
+  background-color: lightslategray;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  /* fixed dia tidak memperdulikan parentnya, dia akan relative terhadap windows, dia akan tetep berada disitu
+  biasanya digunakan untuk menjadi navbar */
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  border: 5px solid black;
+}

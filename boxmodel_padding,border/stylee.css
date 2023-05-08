@@ -1,0 +1,21 @@
+div {
+  width: 600px;
+  /* lebar awal*/
+  margin: 10px auto;
+  /* untuk membuat text ketengah dan memberikan jarak antara atas dan bawah 10px */
+  box-sizing: border-box;
+  /* ini berguna untuk membuat div 1 dan 2 ukuranya tetap 600px walaupun sudah ditambahkan border dan padding,
+  jika tidak menggunakan box-sizing: bprder-box maka ukuranya div 1 dan 2 tidak akan sama, jika ingin sama maka harus diatur seacara manual namun bisa menggunakan tools bawaan css */
+}
+
+.satu {
+  background-color: lightblue;
+  padding: 10px;
+  border: 15px solid black;
+}
+
+.dua {
+  background-color: lightcoral;
+  padding: 50px;
+  border: 10px dashed black;
+}

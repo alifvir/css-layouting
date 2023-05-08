@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  main: "";
+  main: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* style css in here */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  background-image: url(img/moroccan-flower.png);
+  height: 2000px;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: lightslategray;
+  z-index: 1;
+}
+.container {
+  width: 960px;
+  margin: 80px auto;
+  /* atas bawah 80 kanan kiri auto */
+  background-color: #fff;
+  position: relative;
+}
+
+.ig {
+  width: 162px;
+  height: 141px;
+  background-image: url(/img/ig.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  /* agar gambarnya tampil, karena kalau display masih block dia gabakl mau diseting atas bawahnya */
+  text-indent: -99999;
+  /* untuk membuat textnya menghilang */
+  position: absolute;
+  right: -10px;
+  top: -7px;
+}
+
+.header {
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  /* untuk mengatur margin dan agar dia kesamping tidak kebawah */
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: none;
+  /* untuk menghilangkan decorasi pada text contoh garis bawah yang  ada pada text */
+  color: olive;
+  padding: 3px;
+}
+
+.header a:hover {
+  /* hover untuk membuat cursor saat diarahkan ke li maka dia akan ada warna lagi dengan padding yang sudah diatur diatsnya */
+  background-color: bisque;
+  /* ini untuk warna disekitar paddingnya */
+  color: rgb(0, 0, 0);
+  /* ini untuk merubah warna pada tulisanya */
+}
+
+.hero {
+  height: 280px;
+  /* untuk mengatur tinggi dari pada foto yang ingin kita gunakan */
+  background-image: url(img/logo.png);
+  /* untuk memanggil dan menampilkan gambar yang ada di folder img  */
+  background-size: cover;
+  /* untuk membuat gambarnya muat */
+  background-position: 0;
+  /* untuk mengatur posisi horizontal dan vertikal 
+  agar gamabrnya naik maka dibikin mines -200 */
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  /* untuk membuat border atas dan bawah */
+}
+
+.main {
+  width: 600px;
+  padding: 20px;
+  /* width untuk mengatur lebar main */
+  box-sizing: border-box;
+  /* dikasih boxsizing biar ukuranya gaberubah karena ada pading */
+  float: left;
+  /* agar kontennya berada dikiri namun harus diclearfix dulu */
+}
+
+.main h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main .penulis {
+  font-size: 11px;
+  margin-top: -6px;
+}
+
+.main .penulis a {
+  color: olive;
+  text-decoration: none;
+}
+
+.main p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: olive;
+  padding: 10px;
+}
+
+.footer .copy {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+/* sidebar */
+
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+  padding-right: 5px;
+  /* padding right untuk membuat jarak antara text dan gamabr */
+}
+/* jika ingin textnya mengelilingi gambar maka gamabrnya lah yang di float bukan textnya */
+
+.sidebar h3 {
+  font-weight: bold;
+}
+
+.sidebar p {
+  font: 15px/20px arial;
+  /* ukuran font, jarak dan font */
+}
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}

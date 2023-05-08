@@ -1,0 +1,20 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+.satu {
+  background-color: lightcoral;
+}
+.dua {
+  background-color: lightgreen;
+  position: relative;
+  /* jika menggunakan position maka kotak kedua akan berbeda dimensi lalu dia dapat menggunakan 
+   left,right,bottom,top*/
+  top: 30px;
+  /* saat menggunakan top maka elemen ketiga tidak terpengaruh karena elemen 2 berbeda dimensi */
+  left: 5px;
+  /* left 5px artinya saya mau ada jarak 5px dari kiri */
+}
+.tiga {
+  background-color: lightslategray;
+}

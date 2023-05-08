@@ -1,0 +1,22 @@
+div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.satu {
+  background-color: lightcoral;
+  z-index: 2;
+}
+.dua {
+  background-color: rgb(128, 240, 188);
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+  /* z index biasa digunakan untuk mengatur posisi tumpukan yg ada, semakin besar tumpukan maka akan semakin depan dia  */
+}
+.tiga {
+  background-color: rgb(152, 128, 240);
+  top: 200px;
+  left: 200px;
+}

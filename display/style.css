@@ -1,0 +1,53 @@
+/* .navigasi {
+  background-color: darkmagenta;
+} */
+/* semua yg ada dikelas div navigasi maka akan berubah saat dipanggil di css */
+
+/* .main {
+  background-color: darkkhaki;
+} */
+/* harus menggunakan . karena class, kalau id menggunakan # */
+
+/* .main span {
+  background-color: red;
+} */
+/* css tolong carikan saya span yg berada pada class main */
+
+img {
+  width: 200px;
+  height: 200px;
+}
+/* hanya image saja properti inline yg dapat diatur tinggi dan lebarnya */
+
+/* a {
+  background-color: rgb(53, 157, 44);
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+} */
+/* a merupakan properti inline, maka agar dapat diubah a harus dikasih display : inline-block; agar bisa diedit */
+
+/* h1,
+h2,
+p {
+  background-color: lightblue;
+} */
+/* contoh elemen block warna akan memenuhi browser */
+
+.main {
+  width: 600px;
+  background-color: lightblue;
+}
+
+.main h2 {
+  background-color: lightcoral;
+}
+/* h2 {
+  display: none;
+} */
+/* dengan display none maka akan hilang seketika */
+
+.navigasi li {
+  display: inline;
+}
+/*  saat ini li yang berada pada kelas navigasi berubah menjadi inline yg tadinya block */

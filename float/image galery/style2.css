@@ -1,0 +1,29 @@
+.container {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+}
+
+.kotak {
+  width: 80px;
+  height: 80px;
+  background-color: lightblue;
+  color: white;
+  /* color untuk warna angka */
+  text-align: center;
+  /* untuk membuat angka 1 nya ditengah */
+  line-height: 80px;
+  /* untuk membuat angka 1 nya persis ditengah2, tinggal disamakan dengan tinggnya, meksi font sizenya berubah
+  dia akan tetap ditengah2 */
+  font-size: 30px;
+  /* untuk merubah font size ankaanya */
+  margin: 2px;
+  /* untuk memberi jarak antar kotak */
+  float: right;
+  /* jika semua kotak diberikan float maka dia akan berurut sesuai isi floatnya */
+}
+
+.clear {
+  clear: right;
+}

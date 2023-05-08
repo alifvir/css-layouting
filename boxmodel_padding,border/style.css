@@ -1,0 +1,17 @@
+div {
+  width: 300px;
+  /* lebar */
+  height: 300px;
+  /* tinggi */
+  background-color: cornflowerblue;
+  margin: 20px auto;
+  /* untuk membuat kontenya atas dan bawah 20px dan kiri kanan berada ditengah menggunakan margin auto */
+  padding-left: 20px;
+  /* untuk menambah area disebelah kiri yg diwarnain oleh background color */
+  padding-top: 20px;
+  /* untuk menambah area diatas yg diwarnai oleh background color / membuat jarak antara tulisan dan kotak didalamnya*/
+  /* shortcut untuk padding
+  padding : 10px 20px 30px 40px
+  maka dia akan membaca dari atas lalu kekanan kebawah dan kekiri */
+  border: 5px solid black;
+}

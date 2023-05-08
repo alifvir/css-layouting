@@ -1,0 +1,78 @@
+.satu,
+.dua,
+.tiga {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.satu {
+  background-color: lightblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dua {
+  background-color: lightcoral;
+  position: absolute;
+  left: 75px;
+  top: 75px;
+}
+
+.tiga {
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  border: 10px solid rgb(209, 0, 0);
+  margin: 30px auto;
+  position: relative;
+  top: 40px;
+}
+
+.topbar {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+}
+
+body {
+  height: 3000px;
+}
+
+.iklan {
+  position: fixed;
+  background-color: black;
+  opacity: 0.7;
+
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid black;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 50%;
+  /* border radius untuk membuat border x menjadu bulat */
+}

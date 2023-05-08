@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* style css in here */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  background-image: url(img/moroccan-flower.png);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  /* untuk mengatur margin dan agar dia kesamping tidak kebawah */
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: none;
+  /* untuk menghilangkan decorasi pada text contoh garis bawah yang  ada pada text */
+  color: olive;
+  padding: 3px;
+}
+
+.header a:hover {
+  /* hover untuk membuat cursor saat diarahkan ke li maka dia akan ada warna lagi dengan padding yang sudah diatur diatsnya */
+  background-color: bisque;
+  /* ini untuk warna disekitar paddingnya */
+  color: rgb(0, 0, 0);
+  /* ini untuk merubah warna pada tulisanya */
+}
+
+.hero {
+  height: 280px;
+  /* untuk mengatur tinggi dari pada foto yang ingin kita gunakan */
+  background-image: url(img/logo.png);
+  /* untuk memanggil dan menampilkan gambar yang ada di folder img  */
+  background-size: cover;
+  /* untuk membuat gambarnya muat */
+  background-position: 0px -250px;
+  /* untuk mengatur posisi horizontal dan vertikal 
+  agar gamabrnya naik maka dibikin mines */
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  /* untuk membuat border atas dan bawah */
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -6px;
+}
+
+.content .penulis a {
+  color: olive;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: olive;
+  padding: 10px;
+}
+
+.footer .copy {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
